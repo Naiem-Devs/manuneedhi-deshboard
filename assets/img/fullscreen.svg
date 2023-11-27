@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="bx8zpcis9a">
+            <path data-name="Rectangle 21557" transform="translate(1076 44)" style="fill:#bfbfbf" d="M0 0h20v20H0z"/>
+        </clipPath>
+    </defs>
+    <g transform="translate(-1076 -44)" style="clip-path:url(#bx8zpcis9a)">
+        <path data-name="Path 75986" d="M2.361 18.015a.712.712 0 0 1 .712.712V23h4.275a.712.712 0 0 1 0 1.425H2.361a.712.712 0 0 1-.712-.712v-4.986a.712.712 0 0 1 .712-.712z" transform="translate(1074.352 39.574)" style="fill-rule:evenodd"/>
+        <path data-name="Path 75987" d="M8.772 14.533a.712.712 0 0 1 0 1.008L2.865 21.45a.713.713 0 1 1-1.008-1.009l5.908-5.908a.712.712 0 0 1 1.007 0zM21.388 1.918a.712.712 0 0 1 0 1.009l-5.907 5.907a.713.713 0 0 1-1.009-1.008l5.909-5.909a.712.712 0 0 1 1.008 0z" transform="translate(1074.352 42.291)" style="fill-rule:evenodd"/>
+        <path data-name="Path 75988" d="M17.953 2.422a.712.712 0 0 1 .712-.712h4.987a.712.712 0 0 1 .712.712v4.987a.712.712 0 0 1-1.425 0V3.135h-4.274a.712.712 0 0 1-.712-.712zm5.7 12.824a.712.712 0 0 0-.712.712v4.275h-4.276a.712.712 0 0 0 0 1.425h4.987a.712.712 0 0 0 .712-.712v-4.988a.712.712 0 0 0-.712-.712z" transform="translate(1071.634 42.291)" style="fill-rule:evenodd"/>
+        <path data-name="Path 75989" d="M14.543 14.482a.712.712 0 0 0 0 1.009l5.908 5.909a.713.713 0 1 0 1.009-1.008l-5.909-5.909a.712.712 0 0 0-1.008 0zM1.979 1.918a.712.712 0 0 0 0 1.009l5.907 5.907A.713.713 0 0 0 8.9 7.826L2.986 1.918a.712.712 0 0 0-1.007 0z" transform="translate(1074.332 42.291)" style="fill-rule:evenodd"/>
+        <path data-name="Path 75990" d="M8.122 2.422a.712.712 0 0 0-.712-.712H2.422a.712.712 0 0 0-.712.712v4.987a.712.712 0 0 0 1.425 0V3.135h4.274a.712.712 0 0 0 .713-.713z" transform="translate(1074.342 42.291)" style="fill-rule:evenodd"/>
+    </g>
+</svg>

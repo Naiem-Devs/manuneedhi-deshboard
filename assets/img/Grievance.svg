@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="odkkiv3x6a">
+            <path data-name="Rectangle 21552" transform="translate(45 204)" style="fill:#bfbfbf" d="M0 0h20v20H0z"/>
+        </clipPath>
+    </defs>
+    <g transform="translate(-45 -204)" style="clip-path:url(#odkkiv3x6a)">
+        <path data-name="Path 76004" d="M20.714 10a.714.714 0 0 0 .714-.714V5.714A1.429 1.429 0 0 0 20 4.286H2.857a1.429 1.429 0 0 0-1.428 1.428v3.572a.714.714 0 0 0 .714.714 1.429 1.429 0 1 1 0 2.857.714.714 0 0 0-.714.714v3.571a1.429 1.429 0 0 0 1.429 1.429H20a1.429 1.429 0 0 0 1.429-1.429v-3.571a.714.714 0 0 0-.714-.714 1.429 1.429 0 1 1 0-2.857zM20 14.193v2.95h-5V15h-1.429v2.143H2.857v-2.95a2.857 2.857 0 0 0 0-5.528V5.714h10.714v2.143H15V5.714h5v2.95a2.857 2.857 0 0 0 0 5.528z" style="fill:#707070" transform="translate(43.571 202.571)"/>
+        <path data-name="Path 76005" d="M13.571 9.286H15v4.286h-1.429z" style="fill:#707070" transform="translate(43.571 202.571)"/>
+    </g>
+</svg>

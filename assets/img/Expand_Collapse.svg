@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <clipPath id="9sdsm6cj9a">
+            <path data-name="Rectangle 17514" transform="translate(784 185)" style="fill:rgba(0,0,0,.65)" d="M0 0h16v16H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="Expand/Collapse" transform="translate(-781 -232)">
+        <circle data-name="Ellipse 284" cx="16" cy="16" r="16" transform="translate(781 232)" style="fill:#dfe2ed"/>
+        <g data-name="Mask Group 2222" transform="translate(5 55)" style="clip-path:url(#9sdsm6cj9a)">
+            <g data-name="Layer 2">
+                <g data-name="invisible box">
+                    <path data-name="Rectangle 17522" style="fill:none" d="M0 0h16v16H0z" transform="translate(784 185)"/>
+                </g>
+                <g data-name="icons Q2">
+                    <path data-name="Path 13412" d="M8 9.067 4.467 5.533a.633.633 0 0 0-1 .067.7.7 0 0 0 .067.9l4 3.967a.633.633 0 0 0 .933 0l4-3.967a.7.7 0 0 0 .067-.9.633.633 0 0 0-1-.067z" style="fill:rgba(0,0,0,.65)" transform="translate(784 185)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

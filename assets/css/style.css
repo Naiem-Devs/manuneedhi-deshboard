@@ -1,0 +1,1538 @@
+/*   Theme default css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* ======font family=========
+ font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+:root {
+    --textColor: #1e1f22;
+    --white: #fff;
+    --themeColor: #4f1bcc;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    color: var(--textColor);
+    background: #f5f5fb;
+    padding: 30px;
+    transition: all .5s ease-in-out;
+    padding-left: 150px;
+}
+
+button {
+    cursor: pointer;
+}
+
+a:focus,
+button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus,
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+a,
+button {
+    color: inherit;
+    outline: medium none;
+    text-decoration: none;
+}
+
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+    outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+.pb_100 {
+    padding-bottom: 100px;
+}
+
+.pb_50 {
+    padding-bottom: 50px;
+}
+
+.pt_100 {
+    padding-top: 100px;
+}
+
+.pt_50 {
+    padding-top: 50px;
+}
+
+.mb_100 {
+    margin-bottom: 100px;
+}
+
+.mb_50 {
+    margin-bottom: 50px;
+}
+
+.mt_100 {
+    margin-top: 100px;
+}
+
+.mt_50 {
+    margin-top: 50px;
+}
+
+.thm_btn {
+    background: var(--themeColor) !important;
+    color: var(--white) !important;
+    border-radius: 4px;
+    border: none;
+}
+
+.container {
+    max-width: 1400px;
+}
+
+
+/* default-css END 
+================================== */
+
+
+/* Header section*/
+
+.header-area {}
+
+.page-name {
+    display: flex;
+    margin-left: -10px;
+}
+
+.page-name h2 {
+    margin-bottom: 0px;
+    margin-left: 15px;
+    font-size: 24px;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    margin-left: auto;
+}
+
+.header_right ul {
+    display: flex;
+}
+
+.header_right ul li {
+    margin-right: 28px;
+}
+
+.userDropDown {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 9;
+}
+
+.userDropDown h3 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.userDropDown h3 i {
+    font-size: 20px;
+    transform: translateY(2px);
+    margin-left: 2px;
+}
+
+.userDropDown>i {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 15px;
+    position: relative;
+    z-index: 0;
+}
+
+.userDropDown i img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.SideMenu {
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: var(--white);
+    padding: 20px 0;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    display: block;
+    z-index: 9;
+    transition: all .5s ease-in-out;
+}
+
+.SideMenu ul li {
+    margin-bottom: 25px;
+    position: relative;
+    z-index: 9;
+}
+
+.SideMenu ul>li:hover .Threelink {
+    left: 130px;
+    opacity: 1;
+    z-index: 2;
+    visibility: visible;
+}
+
+.SideMenu ul li>a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    color: #000;
+    transition: .3s;
+    position: relative;
+    padding: 0 16px;
+}
+
+.SideMenu ul li a.active {
+    color: var(--themeColor);
+}
+
+.SideMenu ul li a.active:before {
+    opacity: 1;
+}
+
+.SideMenu ul li a:before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 20px;
+    background: var(--themeColor);
+    right: 0;
+    top: 22%;
+    opacity: 0;
+}
+
+.SideMenu ul li a.active i svg path {
+    fill: var(--themeColor) !important;
+}
+
+.SideMenu ul li a:hover {
+    color: var(--themeColor);
+}
+
+.SideMenu ul li a:hover i svg path {
+    fill: var(--themeColor) !important;
+}
+
+.SideMenu ul li a i {
+    display: block;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5fb;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.Threelink {
+    position: absolute;
+    background: var(--white);
+    width: 200px;
+    top: 0;
+    left: 100px;
+    border-radius: 7px;
+    z-index: -6;
+    opacity: 0;
+    transition: all .4s ease-in-out;
+    box-shadow: 5px 2px 10px rgb(0 0 0 / 10%);
+    visibility: hidden;
+}
+
+.SideMenu ul li .Threelink a {
+    width: 100%;
+    display: block;
+    padding: 0;
+    font-size: 18px;
+    padding: 7px 0px 8px 11px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+.SideMenu ul li .Threelink a.active {
+    background: var(--themeColor);
+    color: var(--white);
+}
+
+.SideMenu ul li .Threelink a:hover {
+    background: var(--themeColor);
+    color: var(--white);
+}
+
+.SideMenu ul li .Threelink ul li {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgb(0 0 0 / 6%);
+    padding: 5px;
+}
+
+button.Hidebtn {
+    border: none;
+    position: absolute;
+    right: -35px;
+    font-size: 16px;
+    background: var(--bs-white);
+    width: 50px;
+    height: 50px;
+    box-shadow: 14px 7px 13px 0 rgb(0 0 0 / 6%);
+    border-radius: 15px;
+    display: none;
+}
+
+
+/* humbergar */
+
+.bar a {
+    width: 35px;
+    height: 35px;
+    float: right;
+    position: relative;
+}
+
+.bar a span {
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    display: block;
+    position: relative;
+    top: 17px;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+.bar a span:before {
+    left: 0;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    bottom: 10px;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+.bar a span:after {
+    left: 0;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    bottom: -10px;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+
+/* humbarger END */
+
+
+/* mobile-menu START */
+
+.mobile-menu {
+    position: fixed;
+    width: 320px;
+    height: 100vh;
+    background: #ffffff;
+    z-index: 99;
+    box-shadow: 0px 0px 9px -1px #737373;
+    top: 0;
+    left: 0;
+    transition: .3s;
+    margin-left: -400px;
+    padding-left: 40px;
+    padding-top: 100px;
+}
+
+.siteBar {
+    margin-left: 0;
+}
+
+.mobile-menu ul#pills-tab {
+    margin-top: 90px;
+    margin-bottom: 35px !important;
+    display: block;
+}
+
+.mobile-menu nav ul li {
+    list-style: none;
+    display: block;
+}
+
+.mobile-menu nav ul li a {
+    color: #272835;
+    font-size: 16px;
+    line-height: 40px;
+    transition: .3s;
+}
+
+.mobile-menu nav ul li a:hover {
+    color: #ff4900;
+}
+
+.mobile-menu ul#pills-tab li {
+    display: inline-block;
+}
+
+.mobile-menu ul#pills-tab li a {
+    color: #272835;
+    font-size: 15px;
+}
+
+.mobile-menu a.theme-btn {
+    margin-top: 60px;
+    margin-left: 0;
+}
+
+.mobile-menu a.theme-btn {
+    margin-top: 60px;
+    margin-left: 0;
+    height: 45px;
+    line-height: 45px;
+}
+
+.mobile-menu .user a {
+    display: block;
+    width: 100%;
+    padding: 0;
+    color: #272835;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.mobile-menu .user {
+    display: block;
+}
+
+.mobile-menu .user a:hover {
+    background: none;
+    opacity: .5;
+}
+
+.mobile-menu a.bars {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+    background: #ff4900;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 22px;
+    color: #fff;
+    box-shadow: 0px 0px 17px -2px #0000004a;
+}
+
+
+/* Header section END */
+
+
+/*--------------Login Page Start -------------------- */
+
+.login_area {
+    height: 100vh;
+    background-color: rgb(46 49 146);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    max-width: 430px;
+    align-items: center;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.login_form a {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.login_form button {
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 12px 140px 11px 142px;
+    background-color: #393390;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login_form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 52px;
+    padding: 0 20px;
+    border: none;
+}
+
+.login_form h2 {
+    font-size: 30px;
+    margin: 10px 0 20px;
+}
+
+
+/*--------------Login Page End && DeshBord Page Start -------------------- */
+
+.userDropDownOption {
+    background: var(--white);
+    border-radius: 5px;
+    max-width: 200px;
+    width: 100%;
+    position: absolute;
+    top: 95px;
+    z-index: 99;
+    right: 40px;
+    box-shadow: 0 0 12px 0 rgb(0 0 0 / 10%);
+    display: none;
+    transition: all .5s ease-in-out;
+}
+
+.userDropDownOption.show {
+    display: block;
+}
+
+.userDropDownOption:before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: white;
+    transform: rotate(45deg);
+    right: 50px;
+    top: -10px;
+    z-index: -1;
+}
+
+.userDropDownOption ul {
+    display: block;
+}
+
+.userDropDownOption ul li {
+    display: block;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgb(0 0 0 / 15%);
+    margin-right: 0;
+}
+
+.userDropDownOption ul li a {
+    display: block;
+}
+
+.userDropDownOption ul li:hover {
+    background: #f5f5fb;
+}
+
+.userDropDownOption ul li:last-child {
+    border: none;
+    border-radius: 0 0 0 10px;
+}
+
+.DeshBord-area {
+    margin-top: 50px;
+}
+
+.dBord_blk {
+    width: 100%;
+    height: 200px;
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    color: var(--white);
+    justify-content: space-between;
+    padding-left: 25px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.dBord_blk:hover:before {
+    top: -15%;
+    width: 168px;
+    height: 138px;
+}
+
+.dBord_blk:hover:after {
+    right: -6%;
+}
+
+.dBord_blk:after,
+.dBord_blk:before {
+    content: "";
+    position: absolute;
+    width: 123px;
+    height: 100px;
+    background-image: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0), #fff);
+    opacity: 0.16;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.dBord_blk:after {
+    bottom: -22%;
+    right: -9%;
+    width: 158px;
+    height: 131px;
+}
+
+.dBord_blk:before {
+    left: -5%;
+    top: -17%;
+    width: 151px;
+    height: 125px;
+}
+
+.dBord_blk h1 {
+    font-size: 45px;
+}
+
+.dBord_blk h3 {
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.Chart {
+    border-radius: 8px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 25px;
+    overflow: hidden;
+}
+
+.Chart_top {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.ChartLeft h2 {
+    font-size: 24px;
+}
+
+.ChartLeft h2 i {
+    background: var(--themeColor);
+    width: 45px;
+    height: 45px;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.ChartRight {
+    position: relative;
+}
+
+.ChartRight ul.show {
+    right: -7px;
+}
+
+i.dotBtn {
+    display: none;
+}
+
+.ChartRight ul li {
+    margin-right: 10px;
+}
+
+.ChartRight ul li {
+    display: inline-block;
+}
+
+.ChartRight ul li a {
+    width: 32px;
+    height: 32px;
+    background: #dfe2ed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 14px;
+    transition: all .3s ease-in-out;
+}
+
+.ChartRight ul li a:hover {
+    background: var(--themeColor);
+    color: #fff;
+}
+
+.chartContent i {
+    display: block;
+    height: 350px;
+}
+
+img.chart1 {
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+
+
+/*--------------DeshBord Page End && Grievance Page Start -------------------- */
+
+.extra_link {
+    margin: 20px 0;
+}
+
+.extra_link ul li a {
+    font-size: 18px;
+}
+
+.extra_link ul li a i {
+    font-size: 22px;
+    margin-right: 8px;
+    transform: translateY(2px);
+}
+
+.extra_link ul li {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.extra_link ul li:last-child {
+    opacity: .5;
+}
+
+.Grievance {
+    padding: 30px 0px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    z-index: 0;
+    position: relative;
+}
+
+.Grievance .container-fluid {
+    padding: 0;
+}
+
+.pdg {
+    padding: 30px 42px 30px;
+}
+
+section .Grv_form {
+    display: unset;
+}
+
+.Grv_form .nice-select {
+    border: 1px solid #f2f5f9;
+}
+
+.Grv_form hr {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 25px 0;
+}
+
+.Grievance_top h4 {
+    font-size: 24px;
+}
+
+.Grievance_top h4 i {
+    background: var(--themeColor);
+    width: 45px;
+    height: 45px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.Grv_form label {
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.Grv_form label input,
+.Grv_form label textarea {
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+    border: none;
+    padding: 13px 14px 12px 15px;
+    border-radius: 6px;
+    background-color: #f2f5f9;
+    transition: all .4s ease-in-out;
+    border: 1px solid #f2f5f9;
+}
+
+.Grv_form label input:focus-within, .Grv_form label textarea:focus-within,.nice-select:focus-within {
+    border: 1px solid var(--themeColor);
+}
+
+.Grv_form label textarea {
+    height: 120px;
+}
+
+.Grv_form label input::placeholder,
+.Grv_form label textarea::placeholder {
+    font-size: 16px;
+    opacity: .6;
+}
+
+.wide {
+    margin-bottom: 25px;
+    margin-top: 12px;
+}
+
+.nice-select.wide span {
+    opacity: 1;
+}
+
+.attach_btn {
+    border-radius: 6px;
+    background-color: rgba(127, 74, 255, 0.1);
+    width: 205px;
+    height: 60px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--themeColor);
+    padding: 10px;
+}
+
+.attach_btn input {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 99;
+    position: relative;
+}
+
+.attach_btn span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.attach_btn span i {
+    margin-right: 3px;
+}
+
+.Grv_form_btn {
+    text-align: right;
+    margin: 20px 0 0;
+}
+
+.Grv_form_btn button {
+    width: 150px;
+    height: 60px;
+    border: none;
+    border-radius: 6px;
+    background: #c7c7c7;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.Grv_form_btn button.active {
+    background: var(--themeColor);
+}
+
+
+/*--------------Grievance Page End && Grievance cell Page Start -------------------- */
+
+.Grievance_top {
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.filter_content {
+    display: flex;
+}
+
+.src_filter {
+    border-radius: 2px;
+    border: solid 1px #ccc;
+    background-color: #fff;
+    height: 47px;
+    position: relative;
+    transition: .3s;
+}
+
+.src_filter a {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--white);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 50px;
+    justify-content: center;
+}
+
+.src_filter input {
+    width: 100%;
+    height: 100%;
+    padding: 10px 15px;
+    border: none;
+}
+
+.filterDropDown {
+    margin: 0 15px;
+    border: solid 1px #ccc;
+    background-color: #d2d2d2;
+    height: 47px;
+    padding: 0 14px;
+    border-radius: 2px;
+}
+
+.grvBtn {
+    border: none;
+    background: var(--themeColor);
+    color: #ffff;
+    border-radius: 2px;
+    font-size: 20px;
+    padding: 0 15px;
+}
+
+.filter_option {
+    background: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px 20px;
+    align-items: end;
+    position: relative;
+    transition: all .3s ease-in-out;
+    height: 0;
+    opacity: 0;
+    padding: 0;
+}
+
+.filter_option.active {
+    /* transition: all .5s ease-in-out; */
+    height: auto;
+    padding: 30px 40px 20px;
+    opacity: 1;
+}
+
+.filter_option:before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #f7f7f7;
+    right: 200px;
+    top: -15px;
+    transform: rotate(45deg);
+}
+
+.filter_option label .nice-select .list {
+    width: 100%;
+}
+
+.filter_option label {
+    display: block;
+    flex: 0 0 25%;
+    width: 100%;
+    display: none;
+}
+
+.filter_option.active label {
+    display: block;
+}
+
+.filter_option label .nice-select {
+    width: 100%;
+    background: var(--white);
+    margin-top: 10px;
+}
+
+.filter_option label>span {
+    display: block;
+    font-weight: 700;
+}
+
+.filter_option_btn {
+    flex: 0 0 20%;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    display: none;
+}
+
+.active .filter_option_btn {
+    display: block;
+}
+
+.filter_option_btn.Grv_form_btn button.active {
+    margin-left: 0;
+}
+
+section .filter_option_btn button {
+    width: 120px;
+    height: 45px;
+}
+
+.table_wrp {
+    overflow-x: auto;
+}
+
+.Grievance_table table.table {
+    border-top: 1px solid rgb(0 0 0 / 15%);
+    min-width: 1100px;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-color: rgb(0 0 0 / 15%) !important;
+}
+
+.Grievance_table tr td:first-child,
+.Grievance_table tr th:first-child {
+    padding-left: 40px;
+}
+
+.Grievance_table tr td {
+    padding: 20px 0;
+}
+
+.Grievance_table tr th {
+    padding: 22px 0 25px;
+}
+
+.Grievance_table tr th span {
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 15px;
+    transform: translateY(-4px);
+}
+
+.Grievance_table tr th span i {
+    line-height: 10px;
+}
+
+.table_btm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    margin-top: 25px;
+}
+
+.table_btm_left {
+    display: flex;
+    align-items: center;
+}
+
+.table_btm_left p {
+    margin-bottom: 0;
+}
+
+.pageSelect {
+    margin: 0 10px;
+    padding: 10px;
+    width: 60px;
+    line-height: 30px;
+    height: 45px;
+}
+
+.pageSelect:focus-within {
+    border: none;
+}
+
+.pageSelect ul.list li {
+    min-height: unset;
+    line-height: 2;
+    padding: 0 20px;
+}
+
+.pageSelect:after {
+    right: 13px;
+    width: 8px;
+    height: 8px;
+}
+
+.table_pagination ul li a {
+    margin: 0 7px;
+    opacity: .5;
+    font-weight: 600;
+    color: var(--themeColor);
+    border-bottom: 2px solid #4f1bcc00;
+}
+
+.table_pagination ul li a.active {
+    opacity: 1;
+    border-bottom: 2px solid var(--themeColor);
+}
+
+.table_pagination button {
+    width: 46px;
+    height: 42px;
+    border: none;
+    font-size: 20px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+button.nxt {
+    background: var(--themeColor);
+    margin-left: 7px;
+}
+
+button.prv {
+    background-color: #f5f5fb;
+    color: var(--themeColor);
+    margin-right: 7px;
+}
+
+.table_pagination ul li {
+    display: inline-block;
+}
+
+
+/*--------------Grievance Cell Page End && Grievance Details Page Start -------------------- */
+
+.Grievance_visitor .Grievance_top {
+    background: var(--white);
+    padding: 24px 10px 24px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.Grievance_visitor .Grievance_top h4 {
+    margin-bottom: 0;
+}
+
+.grv_deteils {
+    background: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1);
+    min-height: 680px;
+}
+
+.grv_deteils ul li {
+    border-bottom: 1px solid rgb(0 0 0 / 15%);
+}
+
+.grv_deteils ul li:last-child {
+    border: none;
+}
+
+.grv_deteils h4 {
+    font-size: 24px;
+    padding: 25px 30px;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgb(0 0 0 / 15%);
+}
+
+.grv_tab {
+    border-radius: 8px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1);
+    min-height: 680px;
+    background: var(--white);
+}
+
+.grv_tab .tab-content button.thm_btn {
+    padding: 8px 15px;
+    border-radius: 6px;
+    margin: 30px;
+}
+
+.grv_tab_btn {
+    padding: 20px 30px;
+    border-bottom: 1px solid rgb(0 0 0 / 14%);
+}
+
+.grv_tab_btn button {
+    border: none;
+    background: #e2e2e2;
+    border-radius: 30px !important;
+    padding: 8px 26px;
+    margin-right: 15px;
+}
+
+.grv_tab_btn button.active {
+    background: black !important;
+}
+
+.grv_deteils_blk {
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    padding-right: 10px;
+}
+
+.grv_deteils_blk a {
+    font-size: 18px;
+}
+
+.grv_deteils_blk h5 {
+    font-size: 16px;
+    color: var(--themeColor);
+}
+
+.grv_deteils_blk div {
+    margin-left: 20px;
+}
+
+.grv_deteils_blk i {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5fb;
+    border-radius: 50%;
+    color: var(--themeColor);
+}
+
+.Activity_blk {
+    border-bottom: 1px solid rgb(0 0 0 / 15%);
+    padding: 25px 30px;
+}
+
+.Rbtn {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.Activity_blk_left {
+    display: flex;
+    align-items: center;
+}
+
+.Activity_blk_text {
+    margin-top: 25px;
+}
+
+.Activity_blk_text p {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.Activity_blk_text p:last-child {
+    margin-bottom: 0;
+}
+
+.Activity_blk_left p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.Activity_blk_left h4 {
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+.Activity_blk_left i {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.Activity_blk_left i img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.atcBtn {
+    padding: 10px 25px 10px 26px;
+    border-radius: 30px;
+    background-color: #e5ddf8;
+    color: var(--themeColor);
+    font-weight: 600;
+}
+
+.Timeline_content {
+    padding: 40px 30px 0;
+}
+
+.Timeline_blk {
+    position: relative;
+}
+
+.Timeline_blk i.fal.fa-clock {
+    background: black;
+    color: var(--white);
+    width: 23px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 12px;
+    position: absolute;
+    left: 50px;
+    bottom: 0;
+}
+
+.Timeline_blk ul {
+    padding: 10px 45px;
+    position: relative;
+    z-index: 0;
+    padding-right: 0;
+}
+
+.Timeline_blk ul:before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 95%;
+    background: #707070;
+    top: 0;
+    left: 60px;
+    z-index: -1;
+}
+
+.Timeline_blk ul li i {
+    width: 34px;
+    height: 30px;
+    background-color: #f8cd46;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.Timeline_blk ul li i.green {
+    background: #4ea06b;
+    color: var(--white);
+    font-size: 14px;
+}
+
+.Timeline_blk ul li {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.Timeline_blk ul li a {
+    display: flex;
+    margin-left: 14px;
+    padding: 14px 20px 12px 15px;
+    border-radius: 4px;
+    border: solid 1px #d9d9d9;
+    background-color: #f7f7f7;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.Timeline_blk ul li a p {
+    margin-bottom: 0;
+    font-size: 14px;
+    opacity: .4;
+}
+
+.Timeline_blk span {
+    padding: 9px 21px;
+    border-radius: 18px;
+    background-color: #e5ddf8;
+    color: var(--themeColor);
+    font-weight: 500;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.modal.Activity h5.modal-title {
+    font-size: 21px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.modal.Activity h5.modal-title i {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--themeColor);
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.modal.Activity .modal-footer button {
+    font-size: 16px;
+    font-weight: 500;
+    width: 110px;
+    height: 38px;
+    padding: 8px 15px;
+    border-radius: 6px;
+    background: #f4f4f4;
+    border: none;
+    color: unset;
+}
+
+.modal.Activity .modal-footer button:focus,
+.modal.Activity .modal-footer button:focus-within {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.modal.Activity .modal-body label textarea {
+    padding: 12px 20px 15px;
+    border-radius: 6px;
+    border: solid 1px #d5d5d5;
+    background-color: #efefef;
+    width: 100%;
+    height: 140px;
+}
+
+.modal.Activity .modal-body label span {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.modal.Activity .modal-body label {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    margin: 20px auto;
+}
+
+.modal.Activity .modal-body label .nice-select {
+    border-radius: 6px;
+    border: solid 1px #d5d5d5;
+    background-color: #efefef;
+    margin-bottom: -10px;
+}
+
+.modal.Activity .modal-body label .nice-select span {
+    color: #000;
+    opacity: 1;
+}
+
+.modal.Activity .modal-body label .nice-select ul.list {
+    background: #efefef;
+}
+
+.modal.Activity .modal-body label .nice-select:after {
+    border-color: #000;
+    opacity: .5;
+}
+
+
+/*--------------Grievance Details Page End && Page Start -------------------- */
+
+
+/*-------------- Page End && Page Start -------------------- */

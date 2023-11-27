@@ -1,0 +1,452 @@
+/* Big screen :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    /* DashBord */
+    .ChartLeft h2 {
+        font-size: 22px;
+    }
+    .dBord_blk h3 {
+        font-size: 22px;
+    }
+    /* DashBord End */
+}
+
+
+/* Normal screen :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    body {
+        padding: 20px;
+    }
+    /* DashBord */
+    .ChartLeft h2 {
+        font-size: 22px;
+    }
+    .dBord_blk h3 {
+        font-size: 22px;
+    }
+    .ChartRight ul li {
+        display: block;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .ChartRight ul {
+        position: absolute;
+        right: -10px;
+        top: -20px;
+    }
+    .chartContent i img {
+        width: 100%;
+        margin-top: 37px;
+    }
+    .chartContent i {
+        display: flex;
+        align-items: center;
+        height: 270px;
+    }
+    /* DashBord End */
+    /* Grievance Details  */
+    .Rbtn {
+        flex-wrap: wrap;
+    }
+    a.atcBtn {
+        margin-top: 20px;
+        display: inline-block;
+    }
+    .grv_deteils_blk {
+        padding-left: 20px;
+    }
+    /* Grievance Details End */
+}
+
+
+/* Tablet screen :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* DashBord  */
+    .dBord_blk {
+        margin-bottom: 20px;
+    }
+    .Chart {
+        margin-bottom: 25px;
+    }
+    /* DashBord End */
+    /* Grievance  */
+    .Grv_form_btn {
+        margin-top: 34px;
+        flex: 0 0 48%;
+    }
+    .Grv_form_btn button {
+        margin-left: 20px;
+        width: 125px;
+        height: 50px;
+    }
+    /* Grievance End */
+    /* Grievance Cell */
+    .Grievance_top {
+        padding: 0 20px 30px;
+    }
+    .Grievance_top h4 {
+        font-size: 22px;
+    }
+    .src_filter {
+        width: 50px;
+        overflow: hidden;
+    }
+    .src_filter:focus,
+    .src_filter:focus-within {
+        width: 160px;
+    }
+    .src_filter:focus input,
+    .src_filter:focus-within input {
+        width: 100%;
+        opacity: 1;
+    }
+    .src_filter a {
+        font-size: 19px;
+    }
+    .src_filter input {
+        opacity: 0;
+    }
+    .filter_option.active {
+        flex-wrap: wrap;
+        padding: 10px 24px 20px;
+    }
+    .filter_option label {
+        flex: 0 0 48%;
+        margin-top: 20px;
+    }
+    .filter_option:before {
+        right: 180px;
+    }
+    /* Grievance Cell End */
+    /* Grievance Details  */
+    .Rbtn {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    a.atcBtn {
+        margin-top: 20px;
+        display: inline-block;
+    }
+    .grv_deteils {
+        margin-bottom: 25px;
+        min-height: auto;
+        padding-bottom: 20px;
+    }
+    .grv_tab_btn {
+        padding: 30px;
+    }
+    .grv_tab {
+        min-height: auto;
+    }
+    /* Grievance Details End */
+}
+
+
+/* small screen :320px. */
+
+@media (max-width: 767px) {
+    body {
+        padding: 10px;
+    }
+    .mb_50 {
+        margin-bottom: 35px;
+    }
+    /* DashBord  */
+    .header-area {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .header_right ul > li {
+        margin-right: 15px;
+    }
+
+.userDropDownOption ul li {
+    margin-right: 0;
+}
+    .userDropDown>i {
+        width: 40px;
+        height: 40px;
+        margin-right: 8px;
+    }
+
+.userDropDownOption {
+    right: 25px;
+    top: 90px;
+}
+
+.userDropDownOption:before {
+    right: 15px;
+}
+    .page-name h2 {
+        font-size: 20px;
+    }
+    .dBord_blk {
+        margin-bottom: 20px;
+        height: 180px;
+    }
+
+.dBord_blk:hover:before {
+    width: 150px;
+    height: 124px;
+    top: -20%;
+}
+
+.dBord_blk:hover:after {
+    width: 141px;
+    height: 120px;
+}
+    .Chart {
+        margin-bottom: 25px;
+        padding: 15px;
+    }
+    .dBord_blk h1 {
+        font-size: 35px;
+    }
+    .userDropDown h3 span {
+        display: none;
+    }
+    button.Hidebtn {
+        display: block;
+    }
+    .ChartLeft h2 {
+        font-size: 18px;
+    }
+    .ChartRight ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .ChartRight ul {
+        position: absolute;
+        right: -10px;
+        top: -22px;
+    }
+
+i.dotBtn {
+    display: block;
+    width: 30px;
+    text-align: center;
+    height: 30px;
+}
+    .chartContent i {
+        display: flex;
+        align-items: center;
+        height: auto;
+        margin: 30px 0px;
+    }
+    .chartContent i img {
+        width: 100%;
+    }
+    /* DashBord End */
+    /* Grievance  */
+    .pdg {
+        padding: 0px 20px 20px;
+    }
+    .Grievance_top h4 {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    .Grv_form label {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .Grv_form label input,
+    .Grv_form label textarea {
+        margin-top: 5px;
+        padding: 10px 14px 10px 14px;
+    }
+    .attach_btn span {
+        font-size: 17px;
+    }
+    .attach_btn span i {
+        margin-right: 10px;
+    }
+    .attach_btn {
+        width: 100%;
+        height: 53px;
+    }
+    .Grv_form_btn {
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        flex: 0 0 100%;
+    }
+    .Grv_form_btn button {
+        margin-left: 20px;
+        width: 100px;
+        height: 44px;
+        font-size: 16px;
+    }
+    .Grv_form_btn button:first-child {
+        margin-left: 0;
+    }
+    /* Grievance End */
+    /* Grievance Cell */
+    .extra_link {
+        display: none;
+    }
+    .Grievance {
+        margin-top: 25px;
+    }
+    .Grievance_top {
+        padding: 0 20px 30px;
+        flex-direction: column;
+    }
+    .Grievance_top h4 {
+        font-size: 18px;
+    }
+    .src_filter {
+        width: 50px;
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+    .src_filter:focus,
+    .src_filter:focus-within {
+        width: 160px;
+    }
+    .src_filter:focus input,
+    .src_filter:focus-within input {
+        width: 100%;
+        opacity: 1;
+    }
+    .src_filter a {
+        right: 15px;
+        font-size: 19px;
+    }
+    button.grvBtn {
+        font-size: 18px;
+    }
+    .filter_option.active {
+        flex-wrap: wrap;
+        padding: 10px 24px 20px;
+    }
+    .filter_option label {
+        flex: 0 0 100%;
+        margin-top: 20px;
+    }
+    .filter_option:before {
+        right: auto;
+        left: 40%;
+        transform: translateX(-60%) rotate(45deg);
+    }
+    .table_btm {
+        flex-wrap: wrap;
+        padding: 0 20px;
+        justify-content: center;
+    }
+    .table_btm_left {
+        margin-bottom: 20px;
+    }
+    .table_pagination {
+        width: max-content;
+        margin: auto;
+    }
+    .filter_content {
+        margin-top: 25px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .Grievance_table tr td {
+        padding: 15px 0;
+        font-size: 15px;
+    }
+    .Grievance_table tr th {
+        padding: 15px 0 18px;
+        font-size: 15px;
+    }
+    .Grievance_table tr td:first-child,
+    .Grievance_table tr th:first-child {
+        padding-left: 25px;
+    }
+    /* Grievance Cell End */
+    /* Grievance Details  */
+    .Rbtn {
+        flex-wrap: wrap;
+    }
+    a.atcBtn {
+        margin-top: 20px;
+        display: inline-block;
+    }
+    /* Grievance Details End */
+    /* Grievance Details  */
+    .Rbtn {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    a.atcBtn {
+        margin-top: 20px;
+        display: inline-block;
+        font-size: 14px;
+    }
+    .grv_deteils {
+        margin-bottom: 25px;
+        min-height: auto;
+        padding-bottom: 20px;
+    }
+    .grv_tab_btn {
+        padding: 25px 15px;
+    }
+    .grv_tab_btn ul {
+        justify-content: center;
+    }
+    .grv_tab_btn ul li:last-child button {
+        margin-right: 0;
+    }
+    .grv_tab {
+        min-height: auto;
+    }
+    .Grievance_visitor .Grievance_top {
+        padding: 15px 15px;
+        align-items: baseline;
+        padding-left: 20px;
+        margin: 25px 0 20px;
+    }
+    .grv_deteils_blk {
+        padding: 15px 20px;
+    }
+    .Activity_blk {
+        padding: 20px;
+        padding-right: 4px;
+    }
+    .Activity_blk_left h4 {
+        font-size: 18px;
+    }
+    .Activity_blk_left i {
+        width: 50px;
+        height: 50px;
+    }
+    .grv_deteils_blk a {
+        font-size: 16px;
+    }
+    .Timeline_blk ul li a {
+        flex-direction: column;
+    }
+    .Timeline_blk ul li a p {
+        margin-top: 10px;
+    }
+    .modal-body {
+        padding: 0 20px;
+    }
+    .modal.Activity h5.modal-title {
+        font-size: 18px;
+    }
+    .modal.Activity .modal-body label .nice-select {
+        margin-top: 0;
+    }
+    .grv_tab .tab-content .Timeline_content button {
+        margin-left: 0;
+    }
+    /* Grievance Details End */
+}
+
+
+/* Large Mobile screen :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="iud1pob25a">
+            <path data-name="Rectangle 21554" transform="translate(45 283)" style="fill:#bfbfbf" d="M0 0h20v20H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="Master Data" transform="translate(-45 -283)" style="clip-path:url(#iud1pob25a)">
+        <path data-name="Path 75995" d="M5.333 11.72a21.567 21.567 0 0 0 4.2.613 2.753 2.753 0 0 1 .613-.913 20.627 20.627 0 0 1-4.813-.667z" style="fill:#707070" transform="translate(42.333 280.293)"/>
+        <path data-name="Path 75996" d="M4 18.667V5.46c.227-.507 2.873-1.407 7.333-1.407s7.113.9 7.333 1.333v.2c-.547.527-3.053 1.367-7.407 1.367a22.32 22.32 0 0 1-5.927-.66v.96a23.733 23.733 0 0 0 5.927.667c2.86 0 5.867-.387 7.407-1.213v3.38a3.533 3.533 0 0 1-1.207.587H20V5.413c0-2.127-5.447-2.667-8.667-2.667s-8.667.567-8.667 2.667v13.254c0 1.753 3.593 2.453 6.667 2.667V20c-3.246-.227-5.146-.92-5.333-1.333z" style="fill:#707070" transform="translate(42.333 280.293)"/>
+        <path data-name="Path 75997" d="M5.333 16.187a20.867 20.867 0 0 0 4 .593v-.933a19.287 19.287 0 0 1-4-.62z" style="fill:#707070" transform="translate(42.333 280.293)"/>
+        <path data-name="Path 75998" d="M21.333 12H12a1.333 1.333 0 0 0-1.333 1.333v8A1.333 1.333 0 0 0 12 22.667h9.333a1.333 1.333 0 0 0 1.333-1.333v-8A1.333 1.333 0 0 0 21.333 12zM12 21.333v-8h9.333v8z" style="fill:#707070" transform="translate(42.333 280.293)"/>
+        <path data-name="Path 75999" d="M14 14.467a.467.467 0 0 0-.467.467v4.993a.467.467 0 1 0 .933 0v-4.994a.467.467 0 0 0-.466-.466z" style="fill:#707070" transform="translate(42.333 280.293)"/>
+        <path data-name="Path 76000" d="M16.667 14.547a.467.467 0 0 0-.467.467V20a.467.467 0 0 0 .933 0v-4.987a.467.467 0 0 0-.467-.467z" style="fill:#707070" transform="translate(42.333 280.293)"/>
+        <path data-name="Path 76001" d="M19.333 14.467a.467.467 0 0 0-.467.467v4.993a.467.467 0 1 0 .933 0v-4.994a.467.467 0 0 0-.467-.467z" style="fill:#707070" transform="translate(42.333 280.293)"/>
+    </g>
+</svg>
